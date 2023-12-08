@@ -44,6 +44,10 @@ th, td {
     padding: 10px ;
 }
 
+tr:nth-child(even) {
+    background-color: #ffd89e;
+}
+
 @media(max-width:550px) {
     th, td {
         padding: 8px;
